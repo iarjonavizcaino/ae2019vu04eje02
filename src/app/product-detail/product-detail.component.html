@@ -1,0 +1,7 @@
+<div *ngFor="let product of product.data">
+    <h2>{{ product.name }}</h2>
+    <p> {{ product.description }} </p>
+    <h3>
+        <strong> {{ product.price | currency }} </strong>
+    </h3>
+</div>
